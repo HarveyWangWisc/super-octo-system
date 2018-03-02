@@ -14,8 +14,17 @@
 * methods
 * parameters
 * local variables
+int             i;
+char            c;
+float           myWidth;
 * instance constants
+static final int MIN_WIDTH = 4;
+
+static final int MAX_WIDTH = 999;
+
+static final int GET_THE_CPU = 1;
 * class constants
+public static final String DEFAULT_NAME = "Bar";
 
 ## Commenting style for public and private members of a class or interface:
 
